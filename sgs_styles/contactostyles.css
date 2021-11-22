@@ -1,0 +1,91 @@
+body{
+	background-color: #FBCA0B;
+	color: #000000;
+	font-family: "armenian" sans-serif;
+}
+
+div{
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: 20px solid #B2910F;
+	margin-left: 400px;
+	margin-right: 400px;
+	background-color: #B2910F;
+	border-radius: 10px;
+}
+
+
+
+h1{
+	margin: 10px;
+}
+
+input{
+	transition: 0.3s;
+}
+
+input:hover{
+	background-color: lightgray;
+}
+
+input:focus{
+	background-color: lightgray;
+	box-shadow: 0px 0px 10px royalblue;
+}
+
+.ip{
+  
+  background-color: #B2910F;
+  color: #000000;
+  border: 5px solid #B2910F;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+  
+}
+
+.ip:hover{
+	opacity: 1;
+}
+
+a img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	opacity: 0.6;
+	transition: 0.3s;
+}
+
+a img:hover{
+	opacity: 1;
+}
+
+textarea{
+	transition: 0.3s;
+}
+
+textarea:hover{
+	background-color: lightgray;
+}
+
+textarea:focus{
+	background-color: lightgray;
+	box-shadow: 0px 0px 10px royalblue;
+}
+
+
+
+
+
+
